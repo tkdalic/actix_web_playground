@@ -1,7 +1,7 @@
 FROM mysql/mysql-server:8.0
 
-ENV MYSQL_DATABASE=rust_web_template \
-  MYSQL_USER=rust_web_template \
+ENV MYSQL_DATABASE=actix_web_playground \
+  MYSQL_USER=actix_web_playground \
   MYSQL_PASSWORD=secret \
   MYSQL_ROOT_PASSWORD=secret \
   TZ=Asia/Tokyo

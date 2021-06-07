@@ -10,13 +10,13 @@ services:
     depends_on:
       - db
     ports:
-      - 5080:80
+      - 5081:80
     command: /bin/sh -c "cargo watch -x run"
 
   nginx:
     image: nginx:1.18-alpine
     ports:
-      - 10080:80
+      - 10081:80
     depends_on:
       - app
     volumes:
@@ -28,7 +28,7 @@ services:
     volumes:
       - db-store:/var/lib/mysql
     ports:
-      - 3306:3306
+      - 3307:3306
 
 volumes:
   target:

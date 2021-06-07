@@ -1,5 +1,5 @@
 [package]
-name = "rust_web_template"
+name = "actix_web_playground"
 version = "0.1.0"
 authors = ["tkdalic <himagami126@gmail.com>"]
 edition = "2018"

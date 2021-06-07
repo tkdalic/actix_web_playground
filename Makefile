@@ -7,8 +7,8 @@ up:
 
 refresh-data:
 	docker-compose down
-	docker volume rm rust_web_template_backend_db-store
-	docker volume rm rust_web_template_backend_target
+	docker volume rm actix_web_playground_backend_db-store
+	docker volume rm actix_web_playground_backend_target
 	make setup
 
 migrate:
